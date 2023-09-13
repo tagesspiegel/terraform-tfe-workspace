@@ -1,4 +1,4 @@
-resource "tfe_workspace" "platform_aws_transit_gateway_staging" {
+resource "tfe_workspace" "this" {
   // Search related Workspace settings
   name        = var.name
   description = var.description
@@ -31,5 +31,5 @@ resource "tfe_workspace" "platform_aws_transit_gateway_staging" {
 }
 
 output "workspace_id" {
-  value = tfe_workspace.platform_aws_transit_gateway_staging.id
+  value = tfe_workspace.this.id
 }
