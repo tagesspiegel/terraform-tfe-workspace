@@ -29,7 +29,3 @@ resource "tfe_workspace" "this" {
   agent_pool_id  = var.execution_mode == "agent" ? var.agent_pool_id : null
   execution_mode = var.execution_mode
 }
-
-output "workspace_id" {
-  value = tfe_workspace.this.id
-}
