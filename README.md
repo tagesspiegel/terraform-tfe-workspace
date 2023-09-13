@@ -23,7 +23,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [tfe_workspace.platform_aws_transit_gateway_staging](https://registry.terraform.io/providers/hashicorp/tfe/0.48.0/docs/resources/workspace) | resource |
+| [tfe_workspace.this](https://registry.terraform.io/providers/hashicorp/tfe/0.48.0/docs/resources/workspace) | resource |
 
 ## Inputs
 
