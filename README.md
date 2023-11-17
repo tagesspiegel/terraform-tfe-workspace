@@ -7,13 +7,13 @@ A module to simplify the creation of a Terraform Cloud workspace.
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | 0.48.0 |
+| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | 0.50.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.48.0 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.50.0 |
 
 ## Modules
 
@@ -23,7 +23,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [tfe_workspace.this](https://registry.terraform.io/providers/hashicorp/tfe/0.48.0/docs/resources/workspace) | resource |
+| [tfe_workspace.this](https://registry.terraform.io/providers/hashicorp/tfe/0.50.0/docs/resources/workspace) | resource |
 
 ## Inputs
 
